@@ -1,3 +1,5 @@
+package Aula01.ex12;
+
 public class Data{
 
 	private final int dia;
