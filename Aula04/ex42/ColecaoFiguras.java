@@ -20,11 +20,11 @@ public class ColecaoFiguras {
     }
     
     public boolean addFigura(Figure f){
-        if(areaTotal()+f.area()<=maxArea){
-            colecao.add(f);
-            return true;
-        }
-        return false;
+        if(colecao.contains(f) || areaTotal()+f.area()>maxArea)
+            return false;
+        colecao.add(f);
+        return true;
+        
     }
     
     public boolean delFigura(Figure f){
