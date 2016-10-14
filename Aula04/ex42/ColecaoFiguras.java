@@ -48,7 +48,7 @@ public class ColecaoFiguras {
     }
     
     public Figure[] getFiguras(){
-        return (Figure[])colecao.toArray();
+        return colecao.toArray(new Figure[colecao.size()]);
     }
     
     public Ponto[] getCentros(){
