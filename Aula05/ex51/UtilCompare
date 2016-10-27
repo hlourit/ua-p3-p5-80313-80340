@@ -1,9 +1,0 @@
-public abstract class UtilCompare extends Comparable<T>{
-	public static T findMax(T t1,T t2){
-		return t1;
-	}
-	
-	public static void sortArray(T[] t){
-	
-	}
-}
