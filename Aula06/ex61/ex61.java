@@ -4,6 +4,12 @@ public class ex61{
 	private static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args){
+		
+		if(args.length!=2){
+			System.out.printf("Usage: java ex61 Nome Local\n");
+			return;
+		}
+
 		LinkedList<Alimento> alimentos = new LinkedList<>();
 		LinkedList<Prato> pratos = new LinkedList<>();
 		Ementa em = new Ementa(args[0],args[1]);
