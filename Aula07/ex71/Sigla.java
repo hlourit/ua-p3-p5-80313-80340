@@ -14,7 +14,6 @@ public class Sigla{
 			tmp=sc.nextLine().split("\t");
 			sig.slg.put(tmp[0],tmp[1]);
 		}
-		System.out.printf("%s\n",sig.slg.toString());
 		return sig;
 	}
 }
