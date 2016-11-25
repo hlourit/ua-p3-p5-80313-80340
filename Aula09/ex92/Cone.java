@@ -1,12 +1,10 @@
 
-public class Cone implements Gelado {
+public class Cone extends GeladoDecorador{
     
-    
-    private Gelado myGelado;
     
 
     Cone(Gelado ice) {
-        myGelado=ice;
+        super(ice);
     }
     
     @Override

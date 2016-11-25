@@ -1,10 +1,8 @@
 
-public class Copo implements Gelado{
-    
-    Gelado myGelado;
+public class Copo extends GeladoDecorador{
     
     public Copo(Gelado ice) {
-        myGelado=ice;
+        super(ice);
     }
     
     @Override
