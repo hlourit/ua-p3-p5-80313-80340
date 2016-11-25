@@ -1,11 +1,10 @@
 
-public class Topping implements Gelado {
+public class Topping extends GeladoDecorador{
     
-    private Gelado myGelado;
     private String topping;
     
     public Topping(Gelado ice, String topping) {
-        myGelado=ice;
+        super(ice);
         this.topping=topping;
         
     }
