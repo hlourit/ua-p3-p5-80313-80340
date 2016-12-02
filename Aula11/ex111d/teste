@@ -1,0 +1,10 @@
+Utilizando as facilidades de Reflection do Java escreva um programa que leia o nome de
+uma classe (pode usar as que construiu até agora) e que apresente as características
+dessa classe (interfaces, superclasses, construtores, métodos, atributos.
+a) Acrescente a possibilidade de criar objetos dessa classe, identificando os
+construtores, deixando o utilizador decidir qual usar e aceitando os argumentos
+a partir na consola.
+b) Guarde os elementos que forem sendo criados numa lista e invoque um método
+comum a todos (por exemplo toString()).
+c) Inclua a possibilidade de invocar outros métodos sobre esses objetos.
+Nota: A construção e invocação deve ser sempre decidida pelo utilizador. Tire partido das cl
