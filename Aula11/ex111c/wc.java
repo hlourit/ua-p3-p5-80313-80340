@@ -10,7 +10,7 @@ public class wc{
 		String[] arr;
 
 		while(bf.ready()){
-			for(String a : bf.readLine().split(" ")){
+			for(String a : bf.readLine().split("\\s+")){
 				if(!s.containsKey(a))
 					s.put(a,1);
 				else
@@ -18,7 +18,9 @@ public class wc{
 			}
 		}
 		
-		System.out.printf("%s\n",s.toString());
+		for(String str : s.keySet())
+			System.out.printf("%s -> %d\n",str,s.get(str));
+
 		ret[0]=s.size();
 		ret[1]=cnt;
 		return ret;
